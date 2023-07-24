@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "drone-control-python"
+version = "0.1.0"
+description = "start dev"
+authors = ["Inspirol <91295122+Inspirol@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "drone_control_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mavsdk = "^1.4.8"
+aioconsole = "^0.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
